@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SpeechRecognition</string>
+    <string name="startrecording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="start_assessment">Start Assessment</string>
+    <string name="stop_assessment">Stop Assessment</string>
+    <string name="start_question">Start Question</string>
+    <string name="tap_to_start">Tap to Start Recording</string>
+    <string name="last">Last</string>
+    <string name="next">Next</string>
+    <string name="new_user">New User</string>
+    <string name="english_assessment">English Assessment</string>
+</resources>

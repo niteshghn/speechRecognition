@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/newuserbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_user"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/questonn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question No :1"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/startassBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_question" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/lastBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/last" />
+
+        <ImageButton
+            android:id="@+id/imgbtn"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/lastBtn"
+            android:contentDescription="@string/tap_to_start"
+            android:src="@drawable/circled_play" />
+
+        <Button
+            android:id="@+id/nextbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgbtn"
+            android:text="@string/next" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tap_to_start" />
+    <!--<android.support.design.widget.TabLayout-->
+    <!--android:id="@+id/tabLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:tabBackground="?attr/colorPrimary"-->
+    <!--app:tabTextColor="@color/white_inactive"-->
+    <!--app:tabSelectedTextColor="@color/white"-->
+    <!--app:tabGravity="fill"-->
+    <!--app:tabMode="fixed"/>-->
+
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:id="@+id/homepager"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1" />-->
+
+</LinearLayout>
